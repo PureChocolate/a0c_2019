@@ -13,7 +13,7 @@ def run(nums):
 
 for n1 in range(100):
     for n2 in range(100):
-        num1 = values[:]
+        num1 = list(values) # or use values[:], god damn wasted majority of the 1.5 hours on this 
         num1[1] = n1
         num1[2] = n2
         run(num1)
